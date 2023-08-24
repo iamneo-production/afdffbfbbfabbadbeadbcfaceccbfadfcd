@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angularapp';
+  title = 'pipes';
   fromCurr :string = '';
   toCurr   :string = '';
   amount !:number;

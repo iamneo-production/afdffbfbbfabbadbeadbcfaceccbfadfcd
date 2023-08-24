@@ -4,12 +4,12 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
-import { CurrencyConverterPipe } from './currencyConverter.pipe';
+import { CurrencyconvPipe } from './currencyconv.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CurrencyConverterPipe
+    CurrencyconvPipe
   ],
   imports: [
     BrowserModule,
